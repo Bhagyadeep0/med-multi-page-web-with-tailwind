@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyEasyDoctor||Where Appointments Meet Convenience</title>
+    <link rel="icon" href="/image/favicon_io/android-chrome-192x192.png">
+    <link rel="icon" href="/image/favicon_io/android-chrome-512x512.png">
+    <link rel="icon" href="/image/favicon_io/favicon-16x16.png">
+    <link rel="icon" href="/image/favicon_io/favicon-32x32.png">
+    <link rel="icon" href="/image/favicon_io/favicon.ico">
+    <link href="/dist/main.css" rel="stylesheet">
+    <link href="/dist/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a7b26b4c23.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- navbar------------------------------>
+    <nav class="flex justify-around items-center pt-5 pb-8 sticky top-0 bg-white shadow-md">
+        <div class="w-full ml-10">
+            <a href="/index.html"><img src="/image/med-logo.png" alt="logo" class="w-[120px]"></a>
+        </div>
+
+        <div>
+            <!-- Mobile Menu Button -->
+            <div class="block lg:hidden">
+                <button id="mobile-menu-button" class="text-red-900 focus:outline-none duration-300 ease-in">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+            <ul id="mobile-menu"
+                class="bg-[#0b0b28] hidden space-y-10 lg:space-y-0 absolute top-0 left-0 px-5 pt-4 w-1/2 ease-in text-center text-2xl lg:text-lg h-screen lg:h-auto lg:relative lg:flex lg:items-center lg:w-auto lg:space-x-10 lg:bg-transparent transition-transform transform duration-300">
+                <li class="w-full "><a href="/index.html"><img src="/image/med-logo.png" alt="logo"
+                            class="w-[120px]"></a></li>
+                <li><a href="/index.html" class="nav-link">Home</a></li>
+                <li><a href="/about.html" class="nav-link">About</a></li>
+                <li><a href="#Doctor" class="nav-link">Doctor</a></li>
+                <li><a href="#Feature" class="nav-link">Feature</a></li>
+                <li><a href="#Reviews" class="nav-link">Reviews</a></li>
+                <li><a href="/contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar ends---------------------------->
+    <main>
+        <!-- hero -->
+        <section class=" py-5 px-4 text-center space-y-7 bg-blue-100 m-auto">
+
+            <div class=" text-center m-auto space-y-5 ">
+                <div class="space-y-6">
+                    <h1 class="font-bold text-4xl ">Welcome to <i class="text-red-500">MyEasyDoctor</i></h1>
+                    <p class=" font-semibold text-2xl md:mx-20">"Connecting lives, one message at a time. Feel free to
+                        reach out - we're here to listen, support, and guide you on your journey to well-being. Your
+                        health matters, and so does your voice. Let's start a conversation that makes a difference."</p>
+                </div>
+                <!-- img part -->
+                <div class="w-full md:w-2/5 text-center m-auto">
+                    <img src="/image/about.jpg" alt="image" class=" rounded-lg w-full shadow-lg">
+                </div>
+            </div>
+        </section>
+
+        <!-- contact section starts -->
+        <section id="#Contact" class="p-5 bg-white">
+            <div class="text-center font-medium space-y-4 mb-12">
+                <h1 class=" text-3xl">
+                    <b>Contact</b> Us
+                </h1>
+                <p class="text-xl text-[#acacac]">
+                    <i>As we get involved in the emotional healing of others, we get healed emotionally ourselves.</i>
+                </p>
+            </div>
+            <!-- heading -->
+            <div class="flex justify-center items-center mx-auto flex-wrap ">
+                <div class="basis-2/5 m-auto">
+                    <h1 class="text-3xl font-extrabold mb-7">Our experts are available for:</h1>
+                    <span class="flex items-center">
+                        <img src="/image/next.png" class="w-8 h-full" alt="img">
+                        <p class="text-lg my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, hic.</p>
+                    </span>
+                    <span class="flex items-center">
+                        <img src="/image/next.png" class="w-8 h-full" alt="img">
+                        <p class="text-lg my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, hic.</p>
+                    </span>
+                    <span class="flex items-center">
+                        <img src="/image/next.png" class="w-8 h-full" alt="img">
+                        <p class="text-lg my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, hic.</p>
+                    </span>
+                </div>
+                <div class="basis-2/5 ">
+
+                    <div class="bg-slate-100 p-8 rounded-lg shadow-lg w-auto lg:w-96">
+
+                        <h2 class="text-3xl font-extrabold text-center text-gray-800 mb-8">Get in Touch</h2>
+
+                        <!-- Contact Form -->
+                        <form action="#" method="post">
+
+                            <!-- Name Input -->
+                            <div class="mb-4">
+                                <label for="name" class="text-base text-gray-600">Your Name</label>
+                                <input type="text" id="name" name="name"
+                                    class="w-full mt-2 px-3 py-2 bg-slate-100 border-b-2 border-blue-500 focus:outline-none focus:border-blue-700"
+                                    placeholder="John Doe" required>
+                            </div>
+
+                            <!-- Email Input -->
+                            <div class="mb-4">
+                                <label for="email" class="text-base text-gray-600">Your Email</label>
+                                <input type="email" id="email" name="email"
+                                    class="w-full mt-2 px-3 py-2 border-b-2 bg-slate-100 border-blue-500 focus:outline-none focus:border-blue-700"
+                                    placeholder="john@example.com" required>
+                            </div>
+
+                            <!-- Message Textarea -->
+                            <div class="mb-6">
+                                <label for="message" class="text-base text-gray-600">Your Message</label>
+                                <textarea id="message" name="message" rows="4"
+                                    class="w-full mt-2 px-3 py-2 border-b-2 bg-slate-100 border-blue-500 focus:outline-none focus:border-blue-700 "
+                                    placeholder="Type your message here..." required></textarea>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <div class="text-center">
+                                <button type="submit"
+                                    class="bg-blue-500 text-white py-2 px-6 rounded-full hover:bg-blue-700 focus:outline-none focus:bg-blue-700 duration-300 ease-in-out">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- contact ends -->
+    </main>
+
+
+    <section id="footer" class="p-10 lg:py-20 lg:px-36 bg-[#0b0b28]">
+        <div class=" mx-auto space-y-6 text-white md:flex md:justify-around md:items-start text-start">
+            <div class="my-3 space-y-8 flex flex-col items-center">
+                <!-- myeasydoctor logo -->
+                <a href="/index.html"><img src="/image/med-logo.png" alt="logo" class="w-[120px]"></a>
+                <!-- facebook logo-->
+                <a href="https://www.facebook.com/myeasydoctor2020/" target="_blank"><svg
+                        xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+                    </svg></a>
+                <!-- youtube logo-->
+                <a href="https://youtu.be/w4o1bsGnjlQ?si=QPwVYalfMF5Lq-UW" target="_blank"><svg
+                        xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                    </svg></a>
+                <!-- whatsapp logo-->
+                <a href="tel:+919382215035" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                        fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                    </svg></a>
+            </div>
+            <div class="space-y-1">
+                <h1 class="text-[#acacac] font-medium mb-2 text-lg">
+                    About
+                </h1>
+                <p>About Us</p>
+                <p>Blog</p>
+                <p>FAQ</p>
+                <p>Login</p>
+                <p>Register</p>
+            </div>
+            <div class="space-y-1">
+                <h1 class="text-[#acacac] font-medium mb-2 text-lg">
+                    Other
+                </h1>
+                <p>Doctors</p>
+                <p>Clinics</p>
+                <p>Specialization</p>
+                <p>Join as a Doctor</p>
+                <p>Download App</p>
+            </div>
+            <div>
+                <div>
+                    <h1 class="text-[#acacac] font-medium mb-2 text-lg">
+                        Contact With Us
+                    </h1>
+                    <p>+91 93822 15035</p>
+                </div>
+                <div>
+                    <h1 class="text-[#acacac] font-medium my-2 text-lg">Follow Us</h1>
+                    <p>info@MyEasyDoctor.com</p>
+                </div>
+            </div>
+        </div>
+        <hr class="my-5 ">
+        <div class=" mx-auto text-[#acacac] flex justify-between items-start flex-wrap">
+            <div>
+                <p>Terms and conditions | Privacy</p>
+            </div>
+            <div>
+                <p>© MyEasyDoctor</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script>
+        // Toggle mobile menu visibility
+        document.getElementById('mobile-menu-button').addEventListener('click', function () {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>

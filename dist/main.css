@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-link{
+    position: relative;
+    color: #3b82f6;
+    font-weight: 600;
+}
+/* Custom Styles */
+.nav-link:hover {
+    color: #1d4ed8; /* Change color on hover */
+  }
+
+  .nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    height: 3px;
+    width: 0;
+    background-color: #1d4ed8; /* Line color */
+    transition: width 0.3s ease-in-out; /* Transition effect for line */
+  }
+
+  .nav-link:hover::before {
+    width: 100%; /* Expand line on hover */
+  }
+
+  ul{
+    transition: transform 0.3s ease-in-out;
+  }
