@@ -13,8 +13,9 @@
     <link href="/dist/main.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght#100&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a7b26b4c23.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
 
 <body>
@@ -42,16 +43,16 @@
                             class="w-[120px]"></a></li>
                 <li><a href="/index.html" class="nav-link">Home</a></li>
                 <li><a href="/about.html" class="nav-link">About</a></li>
-                <li><a href="#Doctor" class="nav-link">Doctor</a></li>
-                <li><a href="#Feature" class="nav-link">Feature</a></li>
-                <li><a href="#Reviews" class="nav-link">Reviews</a></li>
+                <li><a href="#doctor" class="nav-link">Doctor</a></li>
+                <li><a href="#feature" class="nav-link">Feature</a></li>
+                <li><a href="#reviews" class="nav-link">Reviews</a></li>
                 <li><a href="/contact.html" class="nav-link">Contact</a></li>
             </ul>
         </div>
     </nav>
     <main>
 
-        <section id="@Home">
+        <section id="home">
             <div style="background-image: url(/image/hero-image\ copy.jpg); z-index: -10;"
                 class=" bg-cover bg-center h-[600px]  text-center flex  justify-center items-center">
                 <div class="space-y-7 text-white">
@@ -102,7 +103,7 @@
 
         <!-- about section starts -->
 
-        <section id="#About" class="p-5 bg-white">
+        <section id="about" class="p-5 bg-white">
             <div class="text-center font-medium space-y-4 mb-12">
                 <h1 class=" text-3xl">
                     Who are <b>WE</b>
@@ -134,7 +135,7 @@
 
 
         <!----------------------- docctor section starts------------------------------------>
-        <section id="#Doctor" class="p-5 bg-[#f7f7f7]">
+        <section id="doctor" class="p-5 bg-[#f7f7f7]">
             <!-- 1st row with 3col------------------------------->
             <div>
                 <!-- heading -->
@@ -154,24 +155,21 @@
                         <img src="/image/hospital.png" width="50%" alt="img"
                             class="hover:-translate-y-4 duration-300 ease-in">
                         <h2 class="text-xl text-red-600 font-semibold">FIND A DOCTOR</h2>
-                        <p class="font-medium text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Delectus, saepe!</p>
+                        <p class="font-medium text-lg">Search your Doctor using our app</p>
                     </div>
                     <div
                         class="rounded-md bg-white px-5 text-center space-y-2 shadow-md  w-96 py-12 m-5 flex flex-col items-center">
                         <img src="/image/man.png" width="50%" alt="img"
                             class="hover:-translate-y-4 duration-300 ease-in">
                         <h2 class="text-xl text-red-600 font-semibold">VIEW PROFILE</h2>
-                        <p class="font-medium text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Delectus, saepe!</p>
+                        <p class="font-medium text-lg">Check the Doctor's profile to get more information</p>
                     </div>
                     <div
                         class="rounded-md bg-white px-5 text-center space-y-2 shadow-md  w-96 py-12 m-5 flex flex-col items-center">
                         <img src="/image/medical-appointment.png" width="50%" alt="img"
                             class="hover:-translate-y-4 duration-300 ease-in">
                         <h2 class="text-xl text-red-600 font-semibold">BOOK A VISIT</h2>
-                        <p class="font-medium text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Delectus, saepe!</p>
+                        <p class="font-medium text-lg">Choose your suitable time and make an appointment</p>
                     </div>
 
                 </div>
@@ -187,7 +185,7 @@
         <!-- docctor section ends------------------------------------>
 
 
-        <section id="#Feature" class="p-5 bg-white">
+        <section id="feature" class="p-5 bg-white">
             <div class="text-center font-medium space-y-4 mb-12">
                 <h1 class=" text-3xl">
                     <b>Why</b> Us
@@ -201,11 +199,7 @@
                 <div class="basis-2/5"><img src="/image/about.jpg" alt="image" class=" rounded-lg"></div>
                 <div class="basis-2/5 space-y-6">
                     <h1 class="font-bold text-3xl">Our Story</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur rem sapiente alias, illo
-                        perspiciatis placeat consequatur quod corporis voluptatibus inventore quis voluptatem et
-                        blanditiis officia labore quia dolorem libero fugit iusto corrupti in nam, assumenda optio odit?
-                        Dolor, beatae eligendi. Iusto nobis eligendi veritatis, ad ipsum repudiandae tempore ipsam
-                        beatae!</p>
+                    <p>Our journey started with a clear insight into the struggles of both healthcare providers and patients: long wait times, confusing paperwork, and ineffective communication hindered efficient care delivery. Motivated to bridge these gaps, our team embarked on a mission to revolutionize healthcare. With dedication and innovation, we crafted a platform to seamlessly connect doctors and patients, empower healthcare facilities, and streamline the entire healthcare process.</p>
                     <button type="submit"
                         class="bg-red-500 hover:bg-yellow-500 text-white font-bold py-2 px-3 rounded duration-300 ease-in-out"><a
                             href="#">KNOW
@@ -215,7 +209,7 @@
         </section>
 
 
-        <section id="#Reviews" class="p-5 bg-[#f7f7f7]">
+        <section id="reviews" class="p-5 bg-[#f7f7f7]">
             <!-- heading -->
             <div class="text-center font-medium space-y-4 mb-12">
                 <h1 class=" text-3xl">
@@ -240,7 +234,7 @@
 
                     <!-- Testimonial Author -->
                     <div class="flex items-center">
-                        <img src="avatar.jpg" alt="Author" class="w-10 h-10 rounded-full mr-4">
+                        <img src="image/man.png" alt="Author" class="w-10 h-10 rounded-full mr-4">
                         <div>
                             <p class="text-gray-600 font-semibold">John Doe</p>
                             <p class="text-gray-500 text-sm">CEO, Example Company</p>
@@ -258,7 +252,7 @@
 
                     <!-- Testimonial Author -->
                     <div class="flex items-center">
-                        <img src="avatar.jpg" alt="Author" class="w-10 h-10 rounded-full mr-4">
+                        <img src="image/man.png" alt="Author" class="w-10 h-10 rounded-full mr-4">
                         <div>
                             <p class="text-gray-600 font-semibold">John Doe</p>
                             <p class="text-gray-500 text-sm">CEO, Example Company</p>
@@ -276,7 +270,7 @@
 
                     <!-- Testimonial Author -->
                     <div class="flex items-center">
-                        <img src="avatar.jpg" alt="Author" class="w-10 h-10 rounded-full mr-4">
+                        <img src="image/man.png" alt="Author" class="w-10 h-10 rounded-full mr-4">
                         <div>
                             <p class="text-gray-600 font-semibold">John Doe</p>
                             <p class="text-gray-500 text-sm">CEO, Example Company</p>
@@ -299,7 +293,7 @@
 
                     <!-- Testimonial Author -->
                     <div class="flex items-center">
-                        <img src="avatar.jpg" alt="Author" class="w-10 h-10 rounded-full mr-4">
+                        <img src="image/man.png" alt="Author" class="w-10 h-10 rounded-full mr-4">
                         <div>
                             <p class="text-gray-600 font-semibold">John Doe</p>
                             <p class="text-gray-500 text-sm">CEO, Example Company</p>
@@ -317,7 +311,7 @@
 
                     <!-- Testimonial Author -->
                     <div class="flex items-center">
-                        <img src="avatar.jpg" alt="Author" class="w-10 h-10 rounded-full mr-4">
+                        <img src="image/man.png" alt="Author" class="w-10 h-10 rounded-full mr-4">
                         <div>
                             <p class="text-gray-600 font-semibold">John Doe</p>
                             <p class="text-gray-500 text-sm">CEO, Example Company</p>
@@ -335,7 +329,7 @@
 
                     <!-- Testimonial Author -->
                     <div class="flex items-center">
-                        <img src="avatar.jpg" alt="Author" class="w-10 h-10 rounded-full mr-4">
+                        <img src="image/man.png" alt="Author" class="w-10 h-10 rounded-full mr-4">
                         <div>
                             <p class="text-gray-600 font-semibold">John Doe</p>
                             <p class="text-gray-500 text-sm">CEO, Example Company</p>
@@ -352,7 +346,7 @@
 
 
         <!-- contact section starts -->
-        <section id="#Contact" class="p-5 bg-white">
+        <section id="contact" class="p-5 bg-white">
             <div class="text-center font-medium space-y-4 mb-12">
                 <h1 class=" text-3xl">
                     <b>Contact</b> Us
@@ -400,7 +394,7 @@
                                 <label for="email" class="text-base text-gray-600">Your Email</label>
                                 <input type="email" id="email" name="email"
                                     class="w-full mt-2 px-3 py-2 border-b-2 bg-slate-100 border-blue-500 focus:outline-none focus:border-blue-700"
-                                    placeholder="john@example.com" required>
+                                    placeholder="john#example.com" required>
                             </div>
 
                             <!-- Message Textarea -->
@@ -485,7 +479,7 @@
                     </div>
                     <div>
                         <h1 class="text-[#acacac] font-medium my-2 text-lg">Follow Us</h1>
-                        <p>info@MyEasyDoctor.com</p>
+                        <p>info#MyEasyDoctor.com</p>
                     </div>
                 </div>
             </div>
